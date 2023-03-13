@@ -7,16 +7,16 @@ class Monkey implements Animals
 {
 	public void sound()//body of interface method sound
 	{
-		System.out.println("hoop hoop");
+		System.out.println("Monkey sound..");
 	}
 	
 }
-class Main
+class Main //creating class with main method()
 {
 	public static void main(String[] args)
 	{
-		Monkey m = new Monkey();
-		m.sound();//calling method 
+		Monkey m = new Monkey();//creating obj of class monkey
+		m.sound();//calling method() of interface
 		
 	}
 }
