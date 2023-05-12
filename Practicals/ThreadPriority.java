@@ -35,7 +35,7 @@ public class ThreadPriority
 	            	 e.printStackTrace();
 	            }
 	        }
-	        System.out.println(getName() + " Finished");;;;
+	        System.out.println(getName() + " Finished");
 	    }
 	       
 }
